@@ -3,7 +3,7 @@ import type { HeadConfig } from 'vitepress';
 
 import { resolve } from 'node:path';
 
-import { viteArchiverPlugin } from '@vben/vite-config';
+import { viteArchiverPlugin } from '@optiml/vite-config';
 
 import {
   GitChangelog,
@@ -32,7 +32,7 @@ export const shared = defineConfig({
   srcDir: 'src',
   themeConfig: {
     i18nRouting: true,
-    logo: 'https://unpkg.com/@vbenjs/static-source@0.1.7/source/logo-v1.webp',
+    logo: 'https://unpkg.com/@optimljs/static-source@0.1.7/source/logo-v1.webp',
     search: {
       options: {
         locales: {
@@ -43,7 +43,7 @@ export const shared = defineConfig({
     },
     siteTitle: 'Vben Admin',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vbenjs/vue-vben-admin' },
+      { icon: 'github', link: 'https://github.com/danijmj/vue-vben-admin' },
     ],
   },
   title: 'Vben Admin',
@@ -80,7 +80,7 @@ export const shared = defineConfig({
             username: 'likui628',
           },
         ],
-        repoURL: () => 'https://github.com/vbenjs/vue-vben-admin',
+        repoURL: () => 'https://github.com/danijmj/vue-vben-admin',
       }),
       GitChangelogMarkdownSection(),
       viteArchiverPlugin({ outputDir: '.vitepress' }),
@@ -138,12 +138,12 @@ function pwa(): PwaOptions {
       icons: [
         {
           sizes: '192x192',
-          src: 'https://unpkg.com/@vbenjs/static-source@0.1.7/source/pwa-icon-192.png',
+          src: 'https://unpkg.com/@optimljs/static-source@0.1.7/source/pwa-icon-192.png',
           type: 'image/png',
         },
         {
           sizes: '512x512',
-          src: 'https://unpkg.com/@vbenjs/static-source@0.1.7/source/pwa-icon-512.png',
+          src: 'https://unpkg.com/@optimljs/static-source@0.1.7/source/pwa-icon-512.png',
           type: 'image/png',
         },
       ],

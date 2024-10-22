@@ -1,5 +1,5 @@
 {
-  "name": "@vben/turbo-run",
+  "name": "@optiml/turbo-run",
   "version": "5.4.2",
   "private": true,
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@clack/prompts": "catalog:",
-    "@vben/node-utils": "workspace:*",
+    "@optiml/node-utils": "workspace:*",
     "cac": "catalog:"
   }
 }

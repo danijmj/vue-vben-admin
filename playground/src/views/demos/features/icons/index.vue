@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Page } from '@vben/common-ui';
+import { Page } from '@optiml/common-ui';
 import {
   MdiGithub,
   MdiGoogle,
@@ -14,7 +14,7 @@ import {
   SvgCakeIcon,
   SvgCardIcon,
   SvgDownloadIcon,
-} from '@vben/icons';
+} from '@optiml/icons';
 
 import { Card } from 'ant-design-vue';
 </script>

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { BuiltinThemeType } from '@vben/types';
+import type { BuiltinThemeType } from '@optiml/types';
 
-import { Palette } from '@vben/icons';
+import { Palette } from '@optiml/icons';
 import {
   COLOR_PRESETS,
   preferences,
   updatePreferences,
-} from '@vben/preferences';
-import { VbenIconButton } from '@vben-core/shadcn-ui';
+} from '@optiml/preferences';
+import { VbenIconButton } from '@optiml-core/shadcn-ui';
 
 defineOptions({
   name: 'AuthenticationColorToggle',

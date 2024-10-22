@@ -10,8 +10,12 @@ import type {
 
 import { computed } from 'vue';
 
-import { Form } from '@vben-core/shadcn-ui';
-import { cn, isString, mergeWithArrayOverride } from '@vben-core/shared/utils';
+import { Form } from '@optiml-core/shadcn-ui';
+import {
+  cn,
+  isString,
+  mergeWithArrayOverride,
+} from '@optiml-core/shared/utils';
 
 import { type GenericObject } from 'vee-validate';
 

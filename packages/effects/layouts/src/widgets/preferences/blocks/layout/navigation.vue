@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { SelectOption } from '@vben/types';
+import type { SelectOption } from '@optiml/types';
 
-import { $t } from '@vben/locales';
+import { $t } from '@optiml/locales';
 
 import SwitchItem from '../switch-item.vue';
 import ToggleItem from '../toggle-item.vue';

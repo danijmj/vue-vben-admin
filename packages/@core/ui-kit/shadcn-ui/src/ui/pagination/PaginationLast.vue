@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 
-import { cn } from '@vben-core/shared/utils';
+import { cn } from '@optiml-core/shared/utils';
 
 import { ChevronsRight } from 'lucide-vue-next';
 import { PaginationLast, type PaginationLastProps } from 'radix-vue';

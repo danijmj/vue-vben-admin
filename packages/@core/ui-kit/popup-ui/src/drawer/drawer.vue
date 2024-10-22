@@ -7,8 +7,8 @@ import {
   useIsMobile,
   usePriorityValues,
   useSimpleLocale,
-} from '@vben-core/composables';
-import { X } from '@vben-core/icons';
+} from '@optiml-core/composables';
+import { X } from '@optiml-core/icons';
 import {
   Sheet,
   SheetClose,
@@ -22,9 +22,9 @@ import {
   VbenIconButton,
   VbenLoading,
   VisuallyHidden,
-} from '@vben-core/shadcn-ui';
-import { globalShareState } from '@vben-core/shared/global-state';
-import { cn } from '@vben-core/shared/utils';
+} from '@optiml-core/shadcn-ui';
+import { globalShareState } from '@optiml-core/shared/global-state';
+import { cn } from '@optiml-core/shared/utils';
 
 interface Props extends DrawerProps {
   drawerApi?: ExtendedDrawerApi;

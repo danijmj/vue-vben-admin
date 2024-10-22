@@ -1,7 +1,7 @@
 import type { RequestClient } from './request-client';
 import type { MakeErrorMessageFn, ResponseInterceptorConfig } from './types';
 
-import { $t } from '@vben/locales';
+import { $t } from '@optiml/locales';
 
 import axios from 'axios';
 

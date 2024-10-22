@@ -9,13 +9,13 @@ import type { FormActions, FormSchema, VbenFormProps } from './types';
 
 import { toRaw } from 'vue';
 
-import { Store } from '@vben-core/shared/store';
+import { Store } from '@optiml-core/shared/store';
 import {
   bindMethods,
   isFunction,
   mergeWithArrayOverride,
   StateHandler,
-} from '@vben-core/shared/utils';
+} from '@optiml-core/shared/utils';
 
 import { objectPick } from '@vueuse/core';
 

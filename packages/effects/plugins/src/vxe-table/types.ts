@@ -1,5 +1,5 @@
-import type { DeepPartial } from '@vben/types';
-import type { VbenFormProps } from '@vben-core/form-ui';
+import type { DeepPartial } from '@optiml/types';
+import type { VbenFormProps } from '@optiml-core/form-ui';
 import type {
   VxeGridListeners,
   VxeGridProps as VxeTableGridProps,
@@ -10,7 +10,7 @@ import type { VxeGridApi } from './api';
 
 import type { Ref } from 'vue';
 
-import { useVbenForm } from '@vben-core/form-ui';
+import { useVbenForm } from '@optiml-core/form-ui';
 
 export interface VxePaginationInfo {
   currentPage: number;

@@ -2,7 +2,7 @@ import type { Config } from 'tailwindcss';
 
 import path from 'node:path';
 
-import { getPackagesSync } from '@vben/node-utils';
+import { getPackagesSync } from '@optiml/node-utils';
 
 import { addDynamicIconSelectors } from '@iconify/tailwind';
 import typographyPlugin from '@tailwindcss/typography';
@@ -17,7 +17,7 @@ const { packages } = getPackagesSync();
 const tailwindPackages: string[] = [];
 
 packages.forEach((pkg) => {
-  // apps目录下和 @vben-core/tailwind-ui 包需要使用到 tailwindcss ui
+  // apps目录下和 @optiml-core/tailwind-ui 包需要使用到 tailwindcss ui
   // if (fs.existsSync(path.join(pkg.dir, 'tailwind.config.mjs'))) {
   tailwindPackages.push(pkg.dir);
   // }

@@ -26,16 +26,16 @@ class StorageManager {
   }
 
   /**
-   * 获取完整的存储键
-   * @param key 原始键
-   * @returns 带前缀的完整键
+   * Get the full storage key
+   * @param key Original Key
+   * @returns Full key with prefix
    */
   private getFullKey(key: string): string {
     return `${this.prefix}-${key}`;
   }
 
   /**
-   * 清除所有带前缀的存储项
+   * Clear all storage items with prefix
    */
   clear(): void {
     const keysToRemove: string[] = [];
@@ -49,23 +49,23 @@ class StorageManager {
   }
 
   /**
-   * 清除所有过期的存储项
+   * Clear all expired storage items
    */
   clearExpiredItems(): void {
     for (let i = 0; i < this.storage.length; i++) {
       const key = this.storage.key(i);
       if (key && key.startsWith(this.prefix)) {
         const shortKey = key.replace(this.prefix, '');
-        this.getItem(shortKey); // 调用 getItem 方法检查并移除过期项
+        this.getItem(shortKey); // Call the getItem method to check and remove expired items
       }
     }
   }
 
   /**
-   * 获取存储项
-   * @param key 键
-   * @param defaultValue 当项不存在或已过期时返回的默认值
-   * @returns 值，如果项已过期或解析错误则返回默认值
+   * Get storage items
+   * @param key key
+   * @param defaultValue The default value returned when the item does not exist or has expired
+   * @returns The value returned if the item has expired or parsing error occurs
    */
   getItem<T>(key: string, defaultValue: null | T = null): null | T {
     const fullKey = this.getFullKey(key);
@@ -83,14 +83,14 @@ class StorageManager {
       return item.value;
     } catch (error) {
       console.error(`Error parsing item with key "${fullKey}":`, error);
-      this.storage.removeItem(fullKey); // 如果解析失败，删除该项
+      this.storage.removeItem(fullKey); // If parsing fails, delete the item
       return defaultValue;
     }
   }
 
   /**
-   * 移除存储项
-   * @param key 键
+   * Remove storage item
+   * @param key key
    */
   removeItem(key: string): void {
     const fullKey = this.getFullKey(key);
@@ -98,10 +98,10 @@ class StorageManager {
   }
 
   /**
-   * 设置存储项
-   * @param key 键
-   * @param value 值
-   * @param ttl 存活时间（毫秒）
+   * Set storage item
+   * @param key key
+   * @param value value
+   * @param ttl survival time (milliseconds)
    */
   setItem<T>(key: string, value: T, ttl?: number): void {
     const fullKey = this.getFullKey(key);

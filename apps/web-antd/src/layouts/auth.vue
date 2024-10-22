@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { computed } from 'vue';
 
-import { AuthPageLayout } from '@vben/layouts';
-import { preferences } from '@vben/preferences';
+import { AuthPageLayout } from '@optiml/layouts';
+import { preferences } from '@optiml/preferences';
 
 import { $t } from '#/locales';
 

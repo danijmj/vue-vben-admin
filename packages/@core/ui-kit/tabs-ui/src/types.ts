@@ -1,5 +1,5 @@
-import type { IContextMenuItem } from '@vben-core/shadcn-ui';
-import type { TabDefinition, TabsStyleType } from '@vben-core/typings';
+import type { IContextMenuItem } from '@optiml-core/shadcn-ui';
+import type { TabDefinition, TabsStyleType } from '@optiml-core/typings';
 
 export type TabsEmits = {
   close: [string];

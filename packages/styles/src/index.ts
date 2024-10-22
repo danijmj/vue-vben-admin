@@ -1,1 +1,1 @@
-import '@vben-core/design';
+import '@optiml-core/design';

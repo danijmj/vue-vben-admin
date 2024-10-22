@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, useSlots } from 'vue';
 
-import { VbenTooltip } from '@vben-core/shadcn-ui';
+import { VbenTooltip } from '@optiml-core/shadcn-ui';
 
 import { Code } from 'lucide-vue-next';
 import {

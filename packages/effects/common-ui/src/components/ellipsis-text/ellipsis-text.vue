@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, type CSSProperties, ref, watchEffect } from 'vue';
 
-import { VbenTooltip } from '@vben-core/shadcn-ui';
+import { VbenTooltip } from '@optiml-core/shadcn-ui';
 
 interface Props {
   /**

@@ -1,16 +1,16 @@
 /**
  * 该文件可自行根据业务逻辑进行调整
  */
-import type { HttpResponse } from '@vben/request';
+import type { HttpResponse } from '@optiml/request';
 
-import { useAppConfig } from '@vben/hooks';
-import { preferences } from '@vben/preferences';
+import { useAppConfig } from '@optiml/hooks';
+import { preferences } from '@optiml/preferences';
 import {
   authenticateResponseInterceptor,
   errorMessageResponseInterceptor,
   RequestClient,
-} from '@vben/request';
-import { useAccessStore } from '@vben/stores';
+} from '@optiml/request';
+import { useAccessStore } from '@optiml/stores';
 
 import { message } from 'ant-design-vue';
 

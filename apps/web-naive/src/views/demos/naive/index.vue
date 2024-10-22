@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Page } from '@vben/common-ui';
+import { Page } from '@optiml/common-ui';
 
 import { type NotificationType } from 'naive-ui';
 import { NButton, NCard, NSpace, useMessage, useNotification } from 'naive-ui';

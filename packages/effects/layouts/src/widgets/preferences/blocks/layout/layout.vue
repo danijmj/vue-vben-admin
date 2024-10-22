@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { LayoutType } from '@vben/types';
+import type { LayoutType } from '@optiml/types';
 
 import { type Component, computed } from 'vue';
 
-import { CircleHelp } from '@vben/icons';
-import { $t } from '@vben/locales';
-import { VbenTooltip } from '@vben-core/shadcn-ui';
+import { CircleHelp } from '@optiml/icons';
+import { $t } from '@optiml/locales';
+import { VbenTooltip } from '@optiml-core/shadcn-ui';
 
 import {
   FullContent,

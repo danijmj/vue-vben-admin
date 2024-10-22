@@ -42,7 +42,7 @@ const externalRoutes: RouteRecordRaw[] = mergeRouteModules(externalRouteFiles); 
 ```ts
 import type { RouteRecordRaw } from 'vue-router';
 
-import { VBEN_LOGO_URL } from '@vben/constants';
+import { VBEN_LOGO_URL } from '@optiml/constants';
 
 import { BasicLayout } from '#/layouts';
 import { $t } from '#/locales';
@@ -218,7 +218,7 @@ export default routes;
 ```ts
 import type { RouteRecordRaw } from 'vue-router';
 
-import { VBEN_LOGO_URL } from '@vben/constants';
+import { VBEN_LOGO_URL } from '@optiml/constants';
 
 import { BasicLayout } from '#/layouts';
 import { $t } from '#/locales';
@@ -561,7 +561,7 @@ _注意:_ 排序仅针对一级菜单有效，二级菜单的排序需要在对�
 
 ```vue
 <script setup lang="ts">
-import { useRefresh } from '@vben/hooks';
+import { useRefresh } from '@optiml/hooks';
 
 const { refresh } = useRefresh();
 

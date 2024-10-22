@@ -5,7 +5,7 @@ import {
   EchartsUI,
   type EchartsUIType,
   useEcharts,
-} from '@vben/plugins/echarts';
+} from '@optiml/plugins/echarts';
 
 const chartRef = ref<EchartsUIType>();
 const { renderEcharts } = useEcharts(chartRef);

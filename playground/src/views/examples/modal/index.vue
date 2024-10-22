@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Page, useVbenModal } from '@vben/common-ui';
+import { Page, useVbenModal } from '@optiml/common-ui';
 
 import { Button, Card } from 'ant-design-vue';
 

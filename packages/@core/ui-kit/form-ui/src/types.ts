@@ -1,4 +1,4 @@
-import type { VbenButtonProps } from '@vben-core/shadcn-ui';
+import type { VbenButtonProps } from '@optiml-core/shadcn-ui';
 import type { FieldOptions, FormContext, GenericObject } from 'vee-validate';
 import type { ZodTypeAny } from 'zod';
 

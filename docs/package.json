@@ -1,5 +1,5 @@
 {
-  "name": "@vben/docs",
+  "name": "@optiml/docs",
   "version": "5.4.2",
   "private": true,
   "scripts": {
@@ -11,10 +11,10 @@
     "#/*": "./src/_env/*"
   },
   "dependencies": {
-    "@vben-core/shadcn-ui": "workspace:*",
-    "@vben/common-ui": "workspace:*",
-    "@vben/locales": "workspace:*",
-    "@vben/styles": "workspace:*",
+    "@optiml-core/shadcn-ui": "workspace:*",
+    "@optiml/common-ui": "workspace:*",
+    "@optiml/locales": "workspace:*",
+    "@optiml/styles": "workspace:*",
     "ant-design-vue": "catalog:",
     "lucide-vue-next": "catalog:",
     "medium-zoom": "catalog:",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@nolebase/vitepress-plugin-git-changelog": "catalog:",
-    "@vben/vite-config": "workspace:*",
+    "@optiml/vite-config": "workspace:*",
     "@vite-pwa/vitepress": "catalog:",
     "vitepress": "catalog:",
     "vue": "catalog:"

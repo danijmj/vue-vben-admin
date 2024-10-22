@@ -256,7 +256,7 @@ You only need to override the CSS variables you want to change in your project. 
 You only need to customize the primary color in the `preferences.ts` file under the application directory:
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -278,7 +278,7 @@ export const overridesPreferences = defineOverridesPreferences({
 The framework includes a variety of built-in themes, which you can configure in the `preferences.ts` file:
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -1142,7 +1142,7 @@ To add a new theme, simply follow these steps:
 - Add a new theme configuration in the application's `src/preferences.ts`.
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -1208,7 +1208,7 @@ export const overridesPreferences = defineOverridesPreferences({
 The framework includes a variety of built-in themes, which you can configure in `preferences.ts`. The dark theme also uses CSS variables for configuration:
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -1267,7 +1267,7 @@ The header color is configured through the `--header` variable.
 Typically used in special scenarios, you can set the application to color weakness mode. This can be configured in `preferences.ts`:
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -1282,7 +1282,7 @@ export const overridesPreferences = defineOverridesPreferences({
 Typically used in special scenarios, this mode grays out the webpage. You can configure it in `preferences.ts`:
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides

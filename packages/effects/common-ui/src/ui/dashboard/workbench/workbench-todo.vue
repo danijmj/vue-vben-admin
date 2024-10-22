@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
   VbenCheckbox,
-} from '@vben-core/shadcn-ui';
+} from '@optiml-core/shadcn-ui';
 
 interface Props {
   items: WorkbenchTodoItem[];

@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import type { BuiltinThemeType } from '@vben/types';
+import type { BuiltinThemeType } from '@optiml/types';
 
 import { computed, ref } from 'vue';
 
-import { UserRoundPen } from '@vben/icons';
-import { $t } from '@vben/locales';
+import { UserRoundPen } from '@optiml/icons';
+import { $t } from '@optiml/locales';
 import {
   BUILT_IN_THEME_PRESETS,
   type BuiltinThemePreset,
-} from '@vben/preferences';
-import { convertToHsl, TinyColor } from '@vben/utils';
+} from '@optiml/preferences';
+import { convertToHsl, TinyColor } from '@optiml/utils';
 
 defineOptions({
   name: 'PreferenceBuiltinTheme',

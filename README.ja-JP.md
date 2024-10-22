@@ -1,11 +1,11 @@
-<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="215" src="https://unpkg.com/@vbenjs/static-source@0.1.7/source/logo-v1.webp"> </a> <br> <br>
+<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="215" src="https://unpkg.com/@optimljs/static-source@0.1.7/source/logo-v1.webp"> </a> <br> <br>
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
 <h1>Vue Vben Admin</h1>
 </div>
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/vbenjs/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/vbenjs/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/vbenjs/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/vbenjs/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/danijmj/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/danijmj/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/danijmj/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/danijmj/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
 
 **日本語** | [English](./README.md) | [中文](./README.zh-CN.md)
 
@@ -15,7 +15,7 @@ Vue Vben Adminは、最新の`vue3`、`vite`、`TypeScript`などの主流技術
 
 ## アップグレード通知
 
-これは最新バージョン5.0であり、以前のバージョンとは互換性がありません。新しいプロジェクトを開始する場合は、最新バージョンを使用することをお勧めします。古いバージョンを表示したい場合は、[v2ブランチ](https://github.com/vbenjs/vue-vben-admin/tree/v2)を使用してください。
+これは最新バージョン5.0であり、以前のバージョンとは互換性がありません。新しいプロジェクトを開始する場合は、最新バージョンを使用することをお勧めします。古いバージョンを表示したい場合は、[v2ブランチ](https://github.com/danijmj/vue-vben-admin/tree/v2)を使用してください。
 
 ## 特徴
 
@@ -41,7 +41,7 @@ Vue Vben Adminは、最新の`vue3`、`vite`、`TypeScript`などの主流技術
 
 Gitpod（GitHub用の無料オンライン開発環境）でプロジェクトを開き、すぐにコーディングを開始します。
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vbenjs/vue-vben-admin)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/danijmj/vue-vben-admin)
 
 ## ドキュメント
 
@@ -52,7 +52,7 @@ Gitpod（GitHub用の無料オンライン開発環境）でプロジェクト�
 - プロジェクトコードを取得
 
 ```bash
-git clone https://github.com/vbenjs/vue-vben-admin.git
+git clone https://github.com/danijmj/vue-vben-admin.git
 ```
 
 - 依存関係のインストール
@@ -80,7 +80,7 @@ pnpm build
 
 ## 変更ログ
 
-[CHANGELOG](https://github.com/vbenjs/vue-vben-admin/releases)
+[CHANGELOG](https://github.com/danijmj/vue-vben-admin/releases)
 
 ## 貢献方法
 
@@ -127,19 +127,19 @@ pnpm build
 
 ## スター歴史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vbenjs/vue-vben-admin&type=Date)](https://star-history.com/#vbenjs/vue-vben-admin&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=danijmj/vue-vben-admin&type=Date)](https://star-history.com/#danijmj/vue-vben-admin&Date)
 
 ## 寄付
 
 このプロジェクトが役に立つと思われた場合、作者にコーヒーを一杯おごってサポートを示すことができます！
 
-![donate](https://unpkg.com/@vbenjs/static-source@0.1.7/source/sponsor.png)
+![donate](https://unpkg.com/@optimljs/static-source@0.1.7/source/sponsor.png)
 
 <a style="display: block;width: 100px;height: 50px;line-height: 50px; color: #fff;text-align: center; background: #408aed;border-radius: 4px;" href="https://www.paypal.com/paypalme/cvvben">Paypal Me</a>
 
 ## 貢献者
 
-<a href="https://github.com/vbenjs/vue-vben-admin/graphs/contributors">
+<a href="https://github.com/danijmj/vue-vben-admin/graphs/contributors">
  <img alt="Contributors"
         src="https://opencollective.com/vbenjs/contributors.svg?button=false" />
 </a>

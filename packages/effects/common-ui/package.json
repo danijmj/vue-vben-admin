@@ -1,11 +1,11 @@
 {
-  "name": "@vben/common-ui",
+  "name": "@optiml/common-ui",
   "version": "5.4.2",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/danijmj/vue-vben-admin",
+  "bugs": "https://github.com/danijmj/vue-vben-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/danijmj/vue-vben-admin.git",
     "directory": "packages/effects/common-ui"
   },
   "license": "MIT",
@@ -20,14 +20,14 @@
     }
   },
   "dependencies": {
-    "@vben-core/form-ui": "workspace:*",
-    "@vben-core/popup-ui": "workspace:*",
-    "@vben-core/shadcn-ui": "workspace:*",
-    "@vben-core/shared": "workspace:*",
-    "@vben/constants": "workspace:*",
-    "@vben/icons": "workspace:*",
-    "@vben/locales": "workspace:*",
-    "@vben/types": "workspace:*",
+    "@optiml-core/form-ui": "workspace:*",
+    "@optiml-core/popup-ui": "workspace:*",
+    "@optiml-core/shadcn-ui": "workspace:*",
+    "@optiml-core/shared": "workspace:*",
+    "@optiml/constants": "workspace:*",
+    "@optiml/icons": "workspace:*",
+    "@optiml/locales": "workspace:*",
+    "@optiml/types": "workspace:*",
     "@vueuse/core": "catalog:",
     "@vueuse/integrations": "catalog:",
     "qrcode": "catalog:",

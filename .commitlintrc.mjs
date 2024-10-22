@@ -1,1 +1,1 @@
-export { default } from '@vben/commitlint-config';
+export { default } from '@optiml/commitlint-config';

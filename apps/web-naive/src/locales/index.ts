@@ -1,4 +1,7 @@
-import type { LocaleSetupOptions, SupportedLanguagesType } from '@vben/locales';
+import type {
+  LocaleSetupOptions,
+  SupportedLanguagesType,
+} from '@optiml/locales';
 
 import type { App } from 'vue';
 
@@ -6,8 +9,8 @@ import {
   $t,
   setupI18n as coreSetup,
   loadLocalesMapFromDir,
-} from '@vben/locales';
-import { preferences } from '@vben/preferences';
+} from '@optiml/locales';
+import { preferences } from '@optiml/preferences';
 
 const modules = import.meta.glob('./langs/**/*.json');
 

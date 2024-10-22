@@ -1,10 +1,10 @@
-import type { Recordable, UserInfo } from '@vben/types';
+import type { Recordable, UserInfo } from '@optiml/types';
 
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
-import { DEFAULT_HOME_PATH, LOGIN_PATH } from '@vben/constants';
-import { resetAllStores, useAccessStore, useUserStore } from '@vben/stores';
+import { DEFAULT_HOME_PATH, LOGIN_PATH } from '@optiml/constants';
+import { resetAllStores, useAccessStore, useUserStore } from '@optiml/stores';
 
 import { defineStore } from 'pinia';
 

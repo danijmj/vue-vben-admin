@@ -1,9 +1,9 @@
 import { createApp } from 'vue';
 
-import { registerAccessDirective } from '@vben/access';
-import { initStores } from '@vben/stores';
-import '@vben/styles';
-import '@vben/styles/antd';
+import { registerAccessDirective } from '@optiml/access';
+import { initStores } from '@optiml/stores';
+import '@optiml/styles';
+import '@optiml/styles/antd';
 
 import { setupI18n } from '#/locales';
 

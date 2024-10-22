@@ -1,11 +1,11 @@
-<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="215" src="https://unpkg.com/@vbenjs/static-source@0.1.7/source/logo-v1.webp"> </a> <br> <br>
+<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="215" src="https://unpkg.com/@optimljs/static-source@0.1.7/source/logo-v1.webp"> </a> <br> <br>
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
 <h1>Vue Vben Admin</h1>
 </div>
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/vbenjs/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/vbenjs/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/vbenjs/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/vbenjs/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/danijmj/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/danijmj/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/danijmj/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/danijmj/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
 
 **中文** | [English](./README.md) | [日本語](./README.ja-JP.md)
 
@@ -15,7 +15,7 @@ Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的�
 
 ## 升级提示
 
-该版本为最新版本`5.0`, 与其他版本不兼容，如果你是新项目，建议使用最新版本。如果你想查看旧版本，请使用 [v2 分支](https://github.com/vbenjs/vue-vben-admin/tree/v2)
+该版本为最新版本`5.0`, 与其他版本不兼容，如果你是新项目，建议使用最新版本。如果你想查看旧版本，请使用 [v2 分支](https://github.com/danijmj/vue-vben-admin/tree/v2)
 
 ## 特性
 
@@ -41,7 +41,7 @@ Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的�
 
 在 Gitpod（适用于 GitHub 的免费在线开发环境）中打开项目，并立即开始编码.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vbenjs/vue-vben-admin)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/danijmj/vue-vben-admin)
 
 ## 文档
 
@@ -52,7 +52,7 @@ Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的�
 - 获取项目代码
 
 ```bash
-git clone https://github.com/vbenjs/vue-vben-admin.git
+git clone https://github.com/danijmj/vue-vben-admin.git
 ```
 
 - 安装依赖
@@ -79,7 +79,7 @@ pnpm build
 
 ## 更新日志
 
-[CHANGELOG](https://github.com/vbenjs/vue-vben-admin/releases)
+[CHANGELOG](https://github.com/danijmj/vue-vben-admin/releases)
 
 ## 如何贡献
 
@@ -126,19 +126,19 @@ pnpm build
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vbenjs/vue-vben-admin&type=Date)](https://star-history.com/#vbenjs/vue-vben-admin&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=danijmj/vue-vben-admin&type=Date)](https://star-history.com/#danijmj/vue-vben-admin&Date)
 
 ## 捐赠
 
 如果你觉得这个项目对你有帮助，你可以帮作者买一杯咖啡表示支持!
 
-![donate](https://unpkg.com/@vbenjs/static-source@0.1.7/source/sponsor.png)
+![donate](https://unpkg.com/@optimljs/static-source@0.1.7/source/sponsor.png)
 
 <a style="display: block;width: 100px;height: 50px;line-height: 50px; color: #fff;text-align: center; background: #408aed;border-radius: 4px;" href="https://www.paypal.com/paypalme/cvvben">Paypal Me</a>
 
 ## Contributor
 
-<a href="https://github.com/vbenjs/vue-vben-admin/graphs/contributors">
+<a href="https://github.com/danijmj/vue-vben-admin/graphs/contributors">
   <img alt="Contributors"
         src="https://opencollective.com/vbenjs/contributors.svg?button=false" />
 </a>

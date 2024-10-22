@@ -42,7 +42,7 @@ Static routes and dynamic routes are configured in the same way. The configurati
 ```ts
 import type { RouteRecordRaw } from 'vue-router';
 
-import { VBEN_LOGO_URL } from '@vben/constants';
+import { VBEN_LOGO_URL } from '@optiml/constants';
 
 import { BasicLayout } from '#/layouts';
 import { $t } from '#/locales';
@@ -219,7 +219,7 @@ Add a route object in the corresponding routing file as follows:
 ```ts
 import type { RouteRecordRaw } from 'vue-router';
 
-import { VBEN_LOGO_URL } from '@vben/constants';
+import { VBEN_LOGO_URL } from '@optiml/constants';
 
 import { BasicLayout } from '#/layouts';
 import { $t } from '#/locales';
@@ -550,7 +550,7 @@ The way to refresh the route is as follows:
 
 ```vue
 <script setup lang="ts">
-import { useRefresh } from '@vben/hooks';
+import { useRefresh } from '@optiml/hooks';
 
 const { refresh } = useRefresh();
 

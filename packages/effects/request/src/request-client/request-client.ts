@@ -5,7 +5,7 @@ import type {
   CreateAxiosDefaults,
 } from 'axios';
 
-import { bindMethods, merge } from '@vben/utils';
+import { bindMethods, merge } from '@optiml/utils';
 
 import axios from 'axios';
 

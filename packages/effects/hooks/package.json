@@ -1,11 +1,11 @@
 {
-  "name": "@vben/hooks",
+  "name": "@optiml/hooks",
   "version": "5.4.2",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/danijmj/vue-vben-admin",
+  "bugs": "https://github.com/danijmj/vue-vben-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/danijmj/vue-vben-admin.git",
     "directory": "packages/effects/hooks"
   },
   "license": "MIT",
@@ -20,11 +20,11 @@
     }
   },
   "dependencies": {
-    "@vben-core/composables": "workspace:*",
-    "@vben/preferences": "workspace:*",
-    "@vben/stores": "workspace:*",
-    "@vben/types": "workspace:*",
-    "@vben/utils": "workspace:*",
+    "@optiml-core/composables": "workspace:*",
+    "@optiml/preferences": "workspace:*",
+    "@optiml/stores": "workspace:*",
+    "@optiml/types": "workspace:*",
+    "@optiml/utils": "workspace:*",
     "vue": "catalog:",
     "vue-router": "catalog:",
     "watermark-js-plus": "catalog:"

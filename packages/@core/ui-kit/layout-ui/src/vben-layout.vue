@@ -8,9 +8,9 @@ import {
   SCROLL_FIXED_CLASS,
   useLayoutFooterStyle,
   useLayoutHeaderStyle,
-} from '@vben-core/composables';
-import { Menu } from '@vben-core/icons';
-import { VbenIconButton } from '@vben-core/shadcn-ui';
+} from '@optiml-core/composables';
+import { Menu } from '@optiml-core/icons';
+import { VbenIconButton } from '@optiml-core/shadcn-ui';
 
 import { useMouse, useScroll, useThrottleFn } from '@vueuse/core';
 

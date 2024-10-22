@@ -2,7 +2,7 @@ import type { CAC } from 'cac';
 
 import { extname } from 'node:path';
 
-import { getStagedFiles } from '@vben/node-utils';
+import { getStagedFiles } from '@optiml/node-utils';
 
 import { circularDepsDetect, printCircles } from 'circular-dependency-scanner';
 

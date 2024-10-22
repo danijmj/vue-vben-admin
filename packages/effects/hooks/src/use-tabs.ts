@@ -1,6 +1,6 @@
 import { type RouteLocationNormalized, useRoute, useRouter } from 'vue-router';
 
-import { useTabbarStore } from '@vben/stores';
+import { useTabbarStore } from '@optiml/stores';
 
 export function useTabs() {
   const router = useRouter();

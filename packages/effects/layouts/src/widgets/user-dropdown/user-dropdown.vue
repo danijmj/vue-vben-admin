@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import type { AnyFunction } from '@vben/types';
+import type { AnyFunction } from '@optiml/types';
 
 import type { Component } from 'vue';
 import { computed, ref } from 'vue';
 
-import { LockKeyhole, LogOut } from '@vben/icons';
-import { $t } from '@vben/locales';
-import { preferences, usePreferences } from '@vben/preferences';
-import { useLockStore } from '@vben/stores';
-import { isWindowsOs } from '@vben/utils';
-import { useVbenModal } from '@vben-core/popup-ui';
+import { LockKeyhole, LogOut } from '@optiml/icons';
+import { $t } from '@optiml/locales';
+import { preferences, usePreferences } from '@optiml/preferences';
+import { useLockStore } from '@optiml/stores';
+import { isWindowsOs } from '@optiml/utils';
+import { useVbenModal } from '@optiml-core/popup-ui';
 import {
   Badge,
   DropdownMenu,
@@ -21,7 +21,7 @@ import {
   DropdownMenuTrigger,
   VbenAvatar,
   VbenIcon,
-} from '@vben-core/shadcn-ui';
+} from '@optiml-core/shadcn-ui';
 
 import { useMagicKeys, whenever } from '@vueuse/core';
 

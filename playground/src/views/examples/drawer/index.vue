@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Page, useVbenDrawer } from '@vben/common-ui';
+import { Page, useVbenDrawer } from '@optiml/common-ui';
 
 import { Button, Card } from 'ant-design-vue';
 

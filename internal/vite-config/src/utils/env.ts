@@ -2,7 +2,7 @@ import type { ApplicationPluginOptions } from '../typing';
 
 import { join } from 'node:path';
 
-import { fs } from '@vben/node-utils';
+import { fs } from '@optiml/node-utils';
 
 import dotenv from 'dotenv';
 

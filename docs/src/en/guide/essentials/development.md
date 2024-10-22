@@ -53,15 +53,15 @@ The execution command is: `pnpm run [script]` or `npm run [script]`.
     // Build a local Docker image
     "build:docker": "./build-local-docker-image.sh",
     // Build the web-antd application separately
-    "build:antd": "pnpm run build --filter=@vben/web-antd",
+    "build:antd": "pnpm run build --filter=@optiml/web-antd",
     // Build the documentation separately
-    "build:docs": "pnpm run build --filter=@vben/docs",
+    "build:docs": "pnpm run build --filter=@optiml/docs",
     // Build the web-ele application separately
-    "build:ele": "pnpm run build --filter=@vben/web-ele",
+    "build:ele": "pnpm run build --filter=@optiml/web-ele",
     // Build the web-naive application separately
-    "build:naive": "pnpm run build --filter=@vben/naive",
+    "build:naive": "pnpm run build --filter=@optiml/naive",
     // Build the playground application separately
-    "build:play": "pnpm run build --filter=@vben/playground",
+    "build:play": "pnpm run build --filter=@optiml/playground",
     // Changeset version management
     "changeset": "pnpm exec changeset",
     // Check for various issues in the project
@@ -81,15 +81,15 @@ The execution command is: `pnpm run [script]` or `npm run [script]`.
     // Start the project (by default, the dev scripts of all packages in the entire repository will run)
     "dev": "turbo-run dev",
     // Start the web-antd application
-    "dev:antd": "pnpm -F @vben/web-antd run dev",
+    "dev:antd": "pnpm -F @optiml/web-antd run dev",
     // Start the documentation
-    "dev:docs": "pnpm -F @vben/docs run dev",
+    "dev:docs": "pnpm -F @optiml/docs run dev",
     // Start the web-ele application
-    "dev:ele": "pnpm -F @vben/web-ele run dev",
+    "dev:ele": "pnpm -F @optiml/web-ele run dev",
     // Start the web-naive application
-    "dev:naive": "pnpm -F @vben/web-naive run dev",
+    "dev:naive": "pnpm -F @optiml/web-naive run dev",
     // Start the playground application
-    "dev:play": "pnpm -F @vben/playground run dev",
+    "dev:play": "pnpm -F @optiml/playground run dev",
     // Format code
     "format": "vsh lint --format",
     // Lint code

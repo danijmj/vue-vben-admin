@@ -28,9 +28,9 @@ export const overridesPreferences = defineOverridesPreferences({
 - 加载对应的语言包
 
 ```ts
-import type { SupportedLanguagesType } from '@vben/locales';
-import { loadLocaleMessages } from '@vben/locales';
-import { updatePreferences } from '@vben/preferences';
+import type { SupportedLanguagesType } from '@optiml/locales';
+import { loadLocaleMessages } from '@optiml/locales';
+import { updatePreferences } from '@optiml/preferences';
 
 async function updateLocale(value: string) {
   // 1. 更新偏好设置
@@ -51,7 +51,7 @@ updateLocale('en-US');
 
 ::: warning 注意
 
-- 请不要将业务翻译文本放到 `@vben/locales` 内，这样可以更好的管理业务和通用的翻译文本。
+- 请不要将业务翻译文本放到 `@optiml/locales` 内，这样可以更好的管理业务和通用的翻译文本。
 - 有多个语言包的情况下，新增翻译文本时，需要在所有语言包内新增对应的文本。
 
 :::
@@ -82,14 +82,14 @@ updateLocale('en-US');
 
 ## 使用翻译文本
 
-通过 `@vben/locales`，你可以很方便的使用翻译文本：
+通过 `@optiml/locales`，你可以很方便的使用翻译文本：
 
 ### 在代码中使用
 
 ```vue
 <script setup lang="ts">
 import { computed } from 'vue';
-import { $t } from '@vben/locales';
+import { $t } from '@optiml/locales';
 
 const items = computed(() => [{ title: $t('about.desc') }]);
 </script>

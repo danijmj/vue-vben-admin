@@ -1,12 +1,12 @@
 {
-  "name": "@vben-core/form-ui",
+  "name": "@optiml-core/form-ui",
   "version": "5.2.1",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/danijmj/vue-vben-admin",
+  "bugs": "https://github.com/danijmj/vue-vben-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
-    "directory": "packages/@vben-core/uikit/form-ui"
+    "url": "git+https://github.com/danijmj/vue-vben-admin.git",
+    "directory": "packages/@optiml-core/uikit/form-ui"
   },
   "license": "MIT",
   "type": "module",
@@ -37,9 +37,9 @@
     }
   },
   "dependencies": {
-    "@vben-core/composables": "workspace:*",
-    "@vben-core/shadcn-ui": "workspace:*",
-    "@vben-core/shared": "workspace:*",
+    "@optiml-core/composables": "workspace:*",
+    "@optiml-core/shadcn-ui": "workspace:*",
+    "@optiml-core/shared": "workspace:*",
     "@vee-validate/zod": "catalog:",
     "@vueuse/core": "catalog:",
     "vee-validate": "catalog:",

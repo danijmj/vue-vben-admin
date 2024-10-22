@@ -3,8 +3,8 @@ import type { ExtendedFormApi, VbenFormProps } from './types';
 
 // import { toRaw, watch } from 'vue';
 
-import { useForwardPriorityValues } from '@vben-core/composables';
-// import { isFunction } from '@vben-core/shared/utils';
+import { useForwardPriorityValues } from '@optiml-core/composables';
+// import { isFunction } from '@optiml-core/shared/utils';
 
 import { useTemplateRef } from 'vue';
 

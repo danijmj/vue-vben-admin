@@ -7,8 +7,8 @@ import {
   useIsMobile,
   usePriorityValues,
   useSimpleLocale,
-} from '@vben-core/composables';
-import { Expand, Shrink } from '@vben-core/icons';
+} from '@optiml-core/composables';
+import { Expand, Shrink } from '@optiml-core/icons';
 import {
   Dialog,
   DialogContent,
@@ -21,9 +21,9 @@ import {
   VbenIconButton,
   VbenLoading,
   VisuallyHidden,
-} from '@vben-core/shadcn-ui';
-import { globalShareState } from '@vben-core/shared/global-state';
-import { cn } from '@vben-core/shared/utils';
+} from '@optiml-core/shadcn-ui';
+import { globalShareState } from '@optiml-core/shared/global-state';
+import { cn } from '@optiml-core/shared/utils';
 
 import { useModalDraggable } from './use-modal-draggable';
 

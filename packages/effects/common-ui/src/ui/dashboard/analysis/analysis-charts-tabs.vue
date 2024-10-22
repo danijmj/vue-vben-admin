@@ -1,9 +1,14 @@
 <script setup lang="ts">
-import type { TabOption } from '@vben/types';
+import type { TabOption } from '@optiml/types';
 
 import { computed } from 'vue';
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@vben-core/shadcn-ui';
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from '@optiml-core/shadcn-ui';
 
 interface Props {
   tabs: TabOption[];

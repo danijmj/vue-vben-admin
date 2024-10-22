@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 
-import { cn } from '@vben-core/shared/utils';
+import { cn } from '@optiml-core/shared/utils';
 
 import { X } from 'lucide-vue-next';
 import {

@@ -85,7 +85,7 @@ Object.defineProperty(window, '_VBEN_ADMIN_PRO_APP_CONF_', {
 
 ### Usage
 
-To access the variables inside `_app.config.js`, you need to use the `useAppConfig` method provided by `@vben/hooks`.
+To access the variables inside `_app.config.js`, you need to use the `useAppConfig` method provided by `@optiml/hooks`.
 
 ```ts
 const { apiURL } = useAppConfig(import.meta.env, import.meta.env.PROD);
@@ -136,8 +136,8 @@ The project offers a wide range of preference settings for dynamically configuri
 If you cannot find documentation for a setting, you can try configuring it yourself and then click `Copy Preferences` to override the project defaults. The configuration file is located in the application directory under `preferences.ts`, where you can override the framework's default configurations to achieve custom settings.
 
 ```ts
-import { useAppConfig } from '@vben/hooks';
-import { defineOverridesPreferences } from '@vben/preferences';
+import { useAppConfig } from '@optiml/hooks';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 /**
  * @description Project configuration file
@@ -163,7 +163,7 @@ const defaultPreferences: Preferences = {
     compact: false,
     contentCompact: 'wide',
     defaultAvatar:
-      'https://unpkg.com/@vbenjs/static-source@0.1.7/source/avatar-v1.webp',
+      'https://unpkg.com/@optimljs/static-source@0.1.7/source/avatar-v1.webp',
     dynamicTitle: true,
     enableCheckUpdates: true,
     enablePreferences: true,
@@ -202,7 +202,8 @@ const defaultPreferences: Preferences = {
   },
   logo: {
     enable: true,
-    source: 'https://unpkg.com/@vbenjs/static-source@0.1.7/source/logo-v1.webp',
+    source:
+      'https://unpkg.com/@optimljs/static-source@0.1.7/source/logo-v1.webp',
   },
   navigation: {
     accordion: true,

@@ -2,10 +2,10 @@ import type {
   ComponentRecordType,
   GenerateMenuAndRoutesOptions,
   RouteRecordStringComponent,
-} from '@vben-core/typings';
+} from '@optiml-core/typings';
 import type { RouteRecordRaw } from 'vue-router';
 
-import { mapTree } from '@vben-core/shared/utils';
+import { mapTree } from '@optiml-core/shared/utils';
 
 /**
  * 动态生成路由 - 后端方式

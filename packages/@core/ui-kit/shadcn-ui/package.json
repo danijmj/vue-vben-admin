@@ -1,14 +1,14 @@
 {
-  "name": "@vben-core/shadcn-ui",
+  "name": "@optiml-core/shadcn-ui",
   "version": "5.4.2",
   "#main": "./dist/index.mjs",
   "#module": "./dist/index.mjs",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/danijmj/vue-vben-admin",
+  "bugs": "https://github.com/danijmj/vue-vben-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
-    "directory": "packages/@vben-core/uikit/shadcn-ui"
+    "url": "git+https://github.com/danijmj/vue-vben-admin.git",
+    "directory": "packages/@optiml-core/uikit/shadcn-ui"
   },
   "license": "MIT",
   "type": "module",
@@ -40,10 +40,10 @@
     }
   },
   "dependencies": {
-    "@vben-core/composables": "workspace:*",
-    "@vben-core/icons": "workspace:*",
-    "@vben-core/shared": "workspace:*",
-    "@vben-core/typings": "workspace:*",
+    "@optiml-core/composables": "workspace:*",
+    "@optiml-core/icons": "workspace:*",
+    "@optiml-core/shared": "workspace:*",
+    "@optiml-core/typings": "workspace:*",
     "@vueuse/core": "catalog:",
     "class-variance-authority": "catalog:",
     "lucide-vue-next": "catalog:",

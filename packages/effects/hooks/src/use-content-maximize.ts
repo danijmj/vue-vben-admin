@@ -1,4 +1,4 @@
-import { updatePreferences, usePreferences } from '@vben/preferences';
+import { updatePreferences, usePreferences } from '@optiml/preferences';
 /**
  * 主体区域最大化
  */

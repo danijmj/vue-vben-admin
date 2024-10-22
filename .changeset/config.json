@@ -2,10 +2,10 @@
   "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "vbenjs/vue-vben-admin" }
+    { "repo": "danijmj/vue-vben-admin" }
   ],
   "commit": false,
-  "fixed": [["@vben-core/*", "@vben/*"]],
+  "fixed": [["@optiml-core/*", "@optiml/*"]],
   "snapshot": {
     "prereleaseTemplate": "{tag}-{datetime}"
   },

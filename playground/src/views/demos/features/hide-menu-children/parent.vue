@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-import { Fallback } from '@vben/common-ui';
+import { Fallback } from '@optiml/common-ui';
 </script>
 
 <template>
   <Fallback
-    description="当前菜单的子菜单不可见"
+    description="The submenu of the current menu is not visible"
     status="coming-soon"
-    title="隐藏子菜单"
+    title="Hide submenu"
   />
 </template>

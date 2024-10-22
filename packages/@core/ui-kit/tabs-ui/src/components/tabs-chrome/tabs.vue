@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { TabDefinition } from '@vben-core/typings';
+import type { TabDefinition } from '@optiml-core/typings';
 
 import type { TabConfig, TabsProps } from '../../types';
 
 import { computed, ref } from 'vue';
 
-import { Pin, X } from '@vben-core/icons';
-import { VbenContextMenu, VbenIcon } from '@vben-core/shadcn-ui';
+import { Pin, X } from '@optiml-core/icons';
+import { VbenContextMenu, VbenIcon } from '@optiml-core/shadcn-ui';
 
 interface Props extends TabsProps {}
 

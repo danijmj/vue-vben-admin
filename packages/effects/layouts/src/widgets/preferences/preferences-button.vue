@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { Settings } from '@vben/icons';
-import { VbenIconButton } from '@vben-core/shadcn-ui';
+import { Settings } from '@optiml/icons';
+import { VbenIconButton } from '@optiml-core/shadcn-ui';
 
 import Preferences from './preferences.vue';
 

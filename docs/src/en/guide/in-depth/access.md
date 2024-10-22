@@ -22,7 +22,7 @@ The framework has built-in two types of access control methods:
 Adjust `preferences.ts` in the corresponding application directory to ensure `accessMode='frontend'`.
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -82,7 +82,7 @@ Sometimes, we need the menu to be visible but access to it forbidden. This can b
 Adjust `preferences.ts` in the corresponding application directory to ensure `accessMode='backend'`.
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -174,13 +174,13 @@ Locate the `getAccessCodes` corresponding interface, which can be adjusted accor
 
 The data structure returned by the permission code is an array of strings, for example: `['AC_100100', 'AC_100110', 'AC_100120', 'AC_100010']`
 
-With the permission codes, you can use the `AccessControl` component and API provided by `@vben/access` to show and hide buttons.
+With the permission codes, you can use the `AccessControl` component and API provided by `@optiml/access` to show and hide buttons.
 
 #### Component Method
 
 ```vue
 <script lang="ts" setup>
-import { AccessControl, useAccess } from '@vben/access';
+import { AccessControl, useAccess } from '@optiml/access';
 
 const { accessMode, hasAccessByCodes } = useAccess();
 </script>
@@ -208,7 +208,7 @@ const { accessMode, hasAccessByCodes } = useAccess();
 
 ```vue
 <script lang="ts" setup>
-import { AccessControl, useAccess } from '@vben/access';
+import { AccessControl, useAccess } from '@optiml/access';
 
 const { hasAccessByCodes } = useAccess();
 </script>
@@ -258,7 +258,7 @@ The method of determining roles does not require permission codes returned by th
 
 ```vue
 <script lang="ts" setup>
-import { AccessControl } from '@vben/access';
+import { AccessControl } from '@optiml/access';
 </script>
 
 <template>
@@ -281,7 +281,7 @@ import { AccessControl } from '@vben/access';
 
 ```vue
 <script lang="ts" setup>
-import { useAccess } from '@vben/access';
+import { useAccess } from '@optiml/access';
 
 const { hasAccessByRoles } = useAccess();
 </script>

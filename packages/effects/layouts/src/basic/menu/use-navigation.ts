@@ -1,6 +1,6 @@
 import { useRouter } from 'vue-router';
 
-import { isHttpUrl, openWindow } from '@vben/utils';
+import { isHttpUrl, openWindow } from '@optiml/utils';
 
 function useNavigation() {
   const router = useRouter();

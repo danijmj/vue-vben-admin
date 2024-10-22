@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { SelectOption } from '@vben/types';
+import type { SelectOption } from '@optiml/types';
 
 import { useSlots } from 'vue';
 
-import { CircleHelp } from '@vben/icons';
+import { CircleHelp } from '@optiml/icons';
 import {
   Select,
   SelectContent,
@@ -11,7 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
   VbenTooltip,
-} from '@vben-core/shadcn-ui';
+} from '@optiml-core/shadcn-ui';
 
 defineOptions({
   name: 'PreferenceSelectItem',

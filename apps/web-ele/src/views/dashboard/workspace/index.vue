@@ -4,7 +4,7 @@ import type {
   WorkbenchQuickNavItem,
   WorkbenchTodoItem,
   WorkbenchTrendItem,
-} from '@vben/common-ui';
+} from '@optiml/common-ui';
 
 import { ref } from 'vue';
 
@@ -15,9 +15,9 @@ import {
   WorkbenchQuickNav,
   WorkbenchTodo,
   WorkbenchTrends,
-} from '@vben/common-ui';
-import { preferences } from '@vben/preferences';
-import { useUserStore } from '@vben/stores';
+} from '@optiml/common-ui';
+import { preferences } from '@optiml/preferences';
+import { useUserStore } from '@optiml/stores';
 
 import AnalyticsVisitsSource from '../analytics/analytics-visits-source.vue';
 

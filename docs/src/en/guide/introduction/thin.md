@@ -52,16 +52,16 @@ After slimming down, you may need to adjust commands according to your project. 
 ```json
 {
   "scripts": {
-    "build:antd": "pnpm run build --filter=@vben/web-antd",
-    "build:docs": "pnpm run build --filter=@vben/docs",
-    "build:ele": "pnpm run build --filter=@vben/web-ele",
-    "build:naive": "pnpm run build --filter=@vben/web-naive",
-    "build:play": "pnpm run build --filter=@vben/playground",
-    "dev:antd": "pnpm -F @vben/web-antd run dev",
-    "dev:docs": "pnpm -F @vben/docs run dev",
-    "dev:ele": "pnpm -F @vben/web-ele run dev",
-    "dev:play": "pnpm -F @vben/playground run dev",
-    "dev:naive": "pnpm -F @vben/web-naive run dev"
+    "build:antd": "pnpm run build --filter=@optiml/web-antd",
+    "build:docs": "pnpm run build --filter=@optiml/docs",
+    "build:ele": "pnpm run build --filter=@optiml/web-ele",
+    "build:naive": "pnpm run build --filter=@optiml/web-naive",
+    "build:play": "pnpm run build --filter=@optiml/playground",
+    "dev:antd": "pnpm -F @optiml/web-antd run dev",
+    "dev:docs": "pnpm -F @optiml/docs run dev",
+    "dev:ele": "pnpm -F @optiml/web-ele run dev",
+    "dev:play": "pnpm -F @optiml/playground run dev",
+    "dev:naive": "pnpm -F @optiml/web-naive run dev"
   }
 }
 ```

@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import type { LoginExpiredModeType } from '@vben/types';
+import type { LoginExpiredModeType } from '@optiml/types';
 
-import { Page } from '@vben/common-ui';
-import { preferences, updatePreferences } from '@vben/preferences';
+import { Page } from '@optiml/common-ui';
+import { preferences, updatePreferences } from '@optiml/preferences';
 
 import { Button, Card } from 'ant-design-vue';
 

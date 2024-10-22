@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Page } from '@vben/common-ui';
+import { Page } from '@optiml/common-ui';
 
 import { Button, Card, message, Space } from 'ant-design-vue';
 

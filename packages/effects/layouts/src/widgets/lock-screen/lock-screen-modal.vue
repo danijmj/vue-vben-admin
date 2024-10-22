@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { Recordable } from '@vben/types';
+import type { Recordable } from '@optiml/types';
 
 import { computed, reactive } from 'vue';
 
-import { $t } from '@vben/locales';
-import { useVbenForm, z } from '@vben-core/form-ui';
-import { useVbenModal } from '@vben-core/popup-ui';
-import { VbenAvatar, VbenButton } from '@vben-core/shadcn-ui';
+import { $t } from '@optiml/locales';
+import { useVbenForm, z } from '@optiml-core/form-ui';
+import { useVbenModal } from '@optiml-core/popup-ui';
+import { VbenAvatar, VbenButton } from '@optiml-core/shadcn-ui';
 
 interface Props {
   avatar?: string;

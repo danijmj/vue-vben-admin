@@ -6,8 +6,8 @@ import {
   VBEN_ELE_PREVIEW_URL,
   VBEN_GITHUB_URL,
   VBEN_LOGO_URL,
-} from '@vben/constants';
-import { SvgAntdvLogoIcon } from '@vben/icons';
+} from '@optiml/constants';
+import { SvgAntdvLogoIcon } from '@optiml/icons';
 
 import { BasicLayout, IFrameView } from '#/layouts';
 import { $t } from '#/locales';

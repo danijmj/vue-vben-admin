@@ -1,4 +1,4 @@
-import type { TabDefinition } from '@vben-core/typings';
+import type { TabDefinition } from '@optiml-core/typings';
 import type { Router, RouteRecordNormalized } from 'vue-router';
 
 import { toRaw } from 'vue';
@@ -7,7 +7,7 @@ import {
   openWindow,
   startProgress,
   stopProgress,
-} from '@vben-core/shared/utils';
+} from '@optiml-core/shared/utils';
 
 import { acceptHMRUpdate, defineStore } from 'pinia';
 

@@ -1,11 +1,11 @@
 {
-  "name": "@vben/access",
+  "name": "@optiml/access",
   "version": "5.4.2",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/danijmj/vue-vben-admin",
+  "bugs": "https://github.com/danijmj/vue-vben-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/danijmj/vue-vben-admin.git",
     "directory": "packages/effects/permissions"
   },
   "license": "MIT",
@@ -20,10 +20,10 @@
     }
   },
   "dependencies": {
-    "@vben/preferences": "workspace:*",
-    "@vben/stores": "workspace:*",
-    "@vben/types": "workspace:*",
-    "@vben/utils": "workspace:*",
+    "@optiml/preferences": "workspace:*",
+    "@optiml/stores": "workspace:*",
+    "@optiml/types": "workspace:*",
+    "@optiml/utils": "workspace:*",
     "vue": "catalog:"
   }
 }

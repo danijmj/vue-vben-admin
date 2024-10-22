@@ -2,7 +2,7 @@ import type { VxeGridProps, VxeUIExport } from 'vxe-table';
 
 import type { VxeGridApi } from './api';
 
-import { isFunction } from '@vben/utils';
+import { isFunction } from '@optiml/utils';
 
 import dayjs from 'dayjs';
 

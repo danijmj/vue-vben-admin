@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { VBEN_DOC_URL } from '@vben/constants';
-import { openWindow } from '@vben/utils';
+import { VBEN_DOC_URL } from '@optiml/constants';
+import { openWindow } from '@optiml/utils';
 
 import { Button } from 'ant-design-vue';
 

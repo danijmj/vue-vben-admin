@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
 
-import { cn } from '@vben-core/shared/utils';
+import { cn } from '@optiml-core/shared/utils';
 
 interface Props {
   class?: string;

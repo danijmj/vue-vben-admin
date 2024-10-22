@@ -22,7 +22,7 @@ outline: deep
 调整对应应用目录下的`preferences.ts`，确保`accessMode='frontend'`。
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -82,7 +82,7 @@ authStore.setUserInfo(userInfo);
 调整对应应用目录下的`preferences.ts`，确保`accessMode='backend'`。
 
 ```ts
-import { defineOverridesPreferences } from '@vben/preferences';
+import { defineOverridesPreferences } from '@optiml/preferences';
 
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
@@ -174,13 +174,13 @@ accessStore.setAccessCodes(accessCodes);
 
 权限码返回的数据结构为字符串数组，例如：`['AC_100100', 'AC_100110', 'AC_100120', 'AC_100010']`
 
-有了权限码，就可以使用 `@vben/access` 提供的`AccessControl`组件及API来进行按钮的显示与隐藏。
+有了权限码，就可以使用 `@optiml/access` 提供的`AccessControl`组件及API来进行按钮的显示与隐藏。
 
 #### 组件方式
 
 ```vue
 <script lang="ts" setup>
-import { AccessControl, useAccess } from '@vben/access';
+import { AccessControl, useAccess } from '@optiml/access';
 
 const { accessMode, hasAccessByCodes } = useAccess();
 </script>
@@ -206,7 +206,7 @@ const { accessMode, hasAccessByCodes } = useAccess();
 
 ```vue
 <script lang="ts" setup>
-import { AccessControl, useAccess } from '@vben/access';
+import { AccessControl, useAccess } from '@optiml/access';
 
 const { hasAccessByCodes } = useAccess();
 </script>
@@ -256,7 +256,7 @@ const { hasAccessByCodes } = useAccess();
 
 ```vue
 <script lang="ts" setup>
-import { AccessControl } from '@vben/access';
+import { AccessControl } from '@optiml/access';
 </script>
 
 <template>
@@ -279,7 +279,7 @@ import { AccessControl } from '@vben/access';
 
 ```vue
 <script lang="ts" setup>
-import { useAccess } from '@vben/access';
+import { useAccess } from '@optiml/access';
 
 const { hasAccessByRoles } = useAccess();
 </script>

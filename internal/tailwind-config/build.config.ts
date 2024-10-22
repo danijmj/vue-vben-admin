@@ -4,7 +4,7 @@ export default defineBuildConfig({
   clean: true,
   declaration: true,
   entries: ['src/index', './src/postcss.config'],
-  externals: ['@vben/node-utils'],
+  externals: ['@optiml/node-utils'],
   rollup: {
     emitCJS: true,
   },

@@ -512,31 +512,31 @@ importers:
       '@types/node':
         specifier: 'catalog:'
         version: 22.7.7
-      '@vben/commitlint-config':
+      '@optiml/commitlint-config':
         specifier: workspace:*
         version: link:internal/lint-configs/commitlint-config
-      '@vben/eslint-config':
+      '@optiml/eslint-config':
         specifier: workspace:*
         version: link:internal/lint-configs/eslint-config
-      '@vben/prettier-config':
+      '@optiml/prettier-config':
         specifier: workspace:*
         version: link:internal/lint-configs/prettier-config
-      '@vben/stylelint-config':
+      '@optiml/stylelint-config':
         specifier: workspace:*
         version: link:internal/lint-configs/stylelint-config
-      '@vben/tailwind-config':
+      '@optiml/tailwind-config':
         specifier: workspace:*
         version: link:internal/tailwind-config
-      '@vben/tsconfig':
+      '@optiml/tsconfig':
         specifier: workspace:*
         version: link:internal/tsconfig
-      '@vben/turbo-run':
+      '@optiml/turbo-run':
         specifier: workspace:*
         version: link:scripts/turbo-run
-      '@vben/vite-config':
+      '@optiml/vite-config':
         specifier: workspace:*
         version: link:internal/vite-config
-      '@vben/vsh':
+      '@optiml/vsh':
         specifier: workspace:*
         version: link:scripts/vsh
       '@vitejs/plugin-vue':
@@ -621,46 +621,46 @@ importers:
 
   apps/web-antd:
     dependencies:
-      '@vben/access':
+      '@optiml/access':
         specifier: workspace:*
         version: link:../../packages/effects/access
-      '@vben/common-ui':
+      '@optiml/common-ui':
         specifier: workspace:*
         version: link:../../packages/effects/common-ui
-      '@vben/constants':
+      '@optiml/constants':
         specifier: workspace:*
         version: link:../../packages/constants
-      '@vben/hooks':
+      '@optiml/hooks':
         specifier: workspace:*
         version: link:../../packages/effects/hooks
-      '@vben/icons':
+      '@optiml/icons':
         specifier: workspace:*
         version: link:../../packages/icons
-      '@vben/layouts':
+      '@optiml/layouts':
         specifier: workspace:*
         version: link:../../packages/effects/layouts
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../../packages/locales
-      '@vben/plugins':
+      '@optiml/plugins':
         specifier: workspace:*
         version: link:../../packages/effects/plugins
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../../packages/preferences
-      '@vben/request':
+      '@optiml/request':
         specifier: workspace:*
         version: link:../../packages/effects/request
-      '@vben/stores':
+      '@optiml/stores':
         specifier: workspace:*
         version: link:../../packages/stores
-      '@vben/styles':
+      '@optiml/styles':
         specifier: workspace:*
         version: link:../../packages/styles
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@vueuse/core':
@@ -684,46 +684,46 @@ importers:
 
   apps/web-ele:
     dependencies:
-      '@vben/access':
+      '@optiml/access':
         specifier: workspace:*
         version: link:../../packages/effects/access
-      '@vben/common-ui':
+      '@optiml/common-ui':
         specifier: workspace:*
         version: link:../../packages/effects/common-ui
-      '@vben/constants':
+      '@optiml/constants':
         specifier: workspace:*
         version: link:../../packages/constants
-      '@vben/hooks':
+      '@optiml/hooks':
         specifier: workspace:*
         version: link:../../packages/effects/hooks
-      '@vben/icons':
+      '@optiml/icons':
         specifier: workspace:*
         version: link:../../packages/icons
-      '@vben/layouts':
+      '@optiml/layouts':
         specifier: workspace:*
         version: link:../../packages/effects/layouts
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../../packages/locales
-      '@vben/plugins':
+      '@optiml/plugins':
         specifier: workspace:*
         version: link:../../packages/effects/plugins
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../../packages/preferences
-      '@vben/request':
+      '@optiml/request':
         specifier: workspace:*
         version: link:../../packages/effects/request
-      '@vben/stores':
+      '@optiml/stores':
         specifier: workspace:*
         version: link:../../packages/stores
-      '@vben/styles':
+      '@optiml/styles':
         specifier: workspace:*
         version: link:../../packages/styles
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@vueuse/core':
@@ -751,46 +751,46 @@ importers:
 
   apps/web-naive:
     dependencies:
-      '@vben/access':
+      '@optiml/access':
         specifier: workspace:*
         version: link:../../packages/effects/access
-      '@vben/common-ui':
+      '@optiml/common-ui':
         specifier: workspace:*
         version: link:../../packages/effects/common-ui
-      '@vben/constants':
+      '@optiml/constants':
         specifier: workspace:*
         version: link:../../packages/constants
-      '@vben/hooks':
+      '@optiml/hooks':
         specifier: workspace:*
         version: link:../../packages/effects/hooks
-      '@vben/icons':
+      '@optiml/icons':
         specifier: workspace:*
         version: link:../../packages/icons
-      '@vben/layouts':
+      '@optiml/layouts':
         specifier: workspace:*
         version: link:../../packages/effects/layouts
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../../packages/locales
-      '@vben/plugins':
+      '@optiml/plugins':
         specifier: workspace:*
         version: link:../../packages/effects/plugins
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../../packages/preferences
-      '@vben/request':
+      '@optiml/request':
         specifier: workspace:*
         version: link:../../packages/effects/request
-      '@vben/stores':
+      '@optiml/stores':
         specifier: workspace:*
         version: link:../../packages/stores
-      '@vben/styles':
+      '@optiml/styles':
         specifier: workspace:*
         version: link:../../packages/styles
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@vueuse/core':
@@ -811,16 +811,16 @@ importers:
 
   docs:
     dependencies:
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../packages/@core/ui-kit/shadcn-ui
-      '@vben/common-ui':
+      '@optiml/common-ui':
         specifier: workspace:*
         version: link:../packages/effects/common-ui
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../packages/locales
-      '@vben/styles':
+      '@optiml/styles':
         specifier: workspace:*
         version: link:../packages/styles
       ant-design-vue:
@@ -842,7 +842,7 @@ importers:
       '@nolebase/vitepress-plugin-git-changelog':
         specifier: 'catalog:'
         version: 2.6.1(@algolia/client-search@4.24.0)(@types/node@22.7.7)(async-validator@4.2.5)(axios@1.7.7)(nprogress@0.2.0)(postcss@8.4.47)(qrcode@1.5.4)(sass@1.79.5)(search-insights@2.17.2)(sortablejs@1.15.3)(terser@5.36.0)(typescript@5.6.3)
-      '@vben/vite-config':
+      '@optiml/vite-config':
         specifier: workspace:*
         version: link:../internal/vite-config
       '@vite-pwa/vitepress':
@@ -863,7 +863,7 @@ importers:
       '@commitlint/config-conventional':
         specifier: 'catalog:'
         version: 19.5.0
-      '@vben/node-utils':
+      '@optiml/node-utils':
         specifier: workspace:*
         version: link:../../node-utils
       commitlint-plugin-function-rules:
@@ -1089,13 +1089,13 @@ importers:
       '@types/postcss-import':
         specifier: 'catalog:'
         version: 14.0.3
-      '@vben/node-utils':
+      '@optiml/node-utils':
         specifier: workspace:*
         version: link:../node-utils
 
   internal/tsconfig:
     dependencies:
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../packages/types
       vite:
@@ -1147,7 +1147,7 @@ importers:
       '@types/html-minifier-terser':
         specifier: 'catalog:'
         version: 7.0.2
-      '@vben/node-utils':
+      '@optiml/node-utils':
         specifier: workspace:*
         version: link:../node-utils
       '@vitejs/plugin-vue':
@@ -1249,7 +1249,7 @@ importers:
 
   packages/@core/composables:
     dependencies:
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../base/shared
       '@vueuse/core':
@@ -1271,10 +1271,10 @@ importers:
 
   packages/@core/preferences:
     dependencies:
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../base/shared
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../base/typings
       '@vueuse/core':
@@ -1286,13 +1286,13 @@ importers:
 
   packages/@core/ui-kit/form-ui:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../composables
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../shadcn-ui
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../../base/shared
       '@vee-validate/zod':
@@ -1316,16 +1316,16 @@ importers:
 
   packages/@core/ui-kit/layout-ui:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../composables
-      '@vben-core/icons':
+      '@optiml-core/icons':
         specifier: workspace:*
         version: link:../../base/icons
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../shadcn-ui
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../../base/typings
       '@vueuse/core':
@@ -1337,19 +1337,19 @@ importers:
 
   packages/@core/ui-kit/menu-ui:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../composables
-      '@vben-core/icons':
+      '@optiml-core/icons':
         specifier: workspace:*
         version: link:../../base/icons
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../shadcn-ui
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../../base/shared
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../../base/typings
       '@vueuse/core':
@@ -1361,16 +1361,16 @@ importers:
 
   packages/@core/ui-kit/popup-ui:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../composables
-      '@vben-core/icons':
+      '@optiml-core/icons':
         specifier: workspace:*
         version: link:../../base/icons
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../shadcn-ui
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../../base/shared
       '@vueuse/core':
@@ -1382,16 +1382,16 @@ importers:
 
   packages/@core/ui-kit/shadcn-ui:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../composables
-      '@vben-core/icons':
+      '@optiml-core/icons':
         specifier: workspace:*
         version: link:../../base/icons
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../../base/shared
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../../base/typings
       '@vueuse/core':
@@ -1415,16 +1415,16 @@ importers:
 
   packages/@core/ui-kit/tabs-ui:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../composables
-      '@vben-core/icons':
+      '@optiml-core/icons':
         specifier: workspace:*
         version: link:../../base/icons
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../shadcn-ui
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../../base/typings
       '@vueuse/core':
@@ -1436,22 +1436,22 @@ importers:
 
   packages/constants:
     dependencies:
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../@core/base/shared
 
   packages/effects/access:
     dependencies:
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../../preferences
-      '@vben/stores':
+      '@optiml/stores':
         specifier: workspace:*
         version: link:../../stores
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../utils
       vue:
@@ -1460,28 +1460,28 @@ importers:
 
   packages/effects/common-ui:
     dependencies:
-      '@vben-core/form-ui':
+      '@optiml-core/form-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/form-ui
-      '@vben-core/popup-ui':
+      '@optiml-core/popup-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/popup-ui
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/shadcn-ui
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../../@core/base/shared
-      '@vben/constants':
+      '@optiml/constants':
         specifier: workspace:*
         version: link:../../constants
-      '@vben/icons':
+      '@optiml/icons':
         specifier: workspace:*
         version: link:../../icons
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../../locales
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../types
       '@vueuse/core':
@@ -1506,19 +1506,19 @@ importers:
 
   packages/effects/hooks:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../@core/composables
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../../preferences
-      '@vben/stores':
+      '@optiml/stores':
         specifier: workspace:*
         version: link:../../stores
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../utils
       vue:
@@ -1533,52 +1533,52 @@ importers:
 
   packages/effects/layouts:
     dependencies:
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../../@core/composables
-      '@vben-core/form-ui':
+      '@optiml-core/form-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/form-ui
-      '@vben-core/layout-ui':
+      '@optiml-core/layout-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/layout-ui
-      '@vben-core/menu-ui':
+      '@optiml-core/menu-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/menu-ui
-      '@vben-core/popup-ui':
+      '@optiml-core/popup-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/popup-ui
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/shadcn-ui
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../../@core/base/shared
-      '@vben-core/tabs-ui':
+      '@optiml-core/tabs-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/tabs-ui
-      '@vben/constants':
+      '@optiml/constants':
         specifier: workspace:*
         version: link:../../constants
-      '@vben/hooks':
+      '@optiml/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@vben/icons':
+      '@optiml/icons':
         specifier: workspace:*
         version: link:../../icons
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../../locales
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../../preferences
-      '@vben/stores':
+      '@optiml/stores':
         specifier: workspace:*
         version: link:../../stores
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../utils
       '@vueuse/core':
@@ -1593,31 +1593,31 @@ importers:
 
   packages/effects/plugins:
     dependencies:
-      '@vben-core/form-ui':
+      '@optiml-core/form-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/form-ui
-      '@vben-core/shadcn-ui':
+      '@optiml-core/shadcn-ui':
         specifier: workspace:*
         version: link:../../@core/ui-kit/shadcn-ui
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../../@core/base/shared
-      '@vben/hooks':
+      '@optiml/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@vben/icons':
+      '@optiml/icons':
         specifier: workspace:*
         version: link:../../icons
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../../locales
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../../preferences
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../../types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../utils
       '@vueuse/core':
@@ -1641,10 +1641,10 @@ importers:
 
   packages/effects/request:
     dependencies:
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../../locales
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../../utils
       axios:
@@ -1657,7 +1657,7 @@ importers:
 
   packages/icons:
     dependencies:
-      '@vben-core/icons':
+      '@optiml-core/icons':
         specifier: workspace:*
         version: link:../@core/base/icons
 
@@ -1666,7 +1666,7 @@ importers:
       '@intlify/core-base':
         specifier: 'catalog:'
         version: 10.0.4
-      '@vben-core/composables':
+      '@optiml-core/composables':
         specifier: workspace:*
         version: link:../@core/composables
       vue:
@@ -1678,19 +1678,19 @@ importers:
 
   packages/preferences:
     dependencies:
-      '@vben-core/preferences':
+      '@optiml-core/preferences':
         specifier: workspace:*
         version: link:../@core/preferences
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../@core/base/typings
 
   packages/stores:
     dependencies:
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../@core/base/shared
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../@core/base/typings
       pinia:
@@ -1708,13 +1708,13 @@ importers:
 
   packages/styles:
     dependencies:
-      '@vben-core/design':
+      '@optiml-core/design':
         specifier: workspace:*
         version: link:../@core/base/design
 
   packages/types:
     dependencies:
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../@core/base/typings
       vue:
@@ -1726,10 +1726,10 @@ importers:
 
   packages/utils:
     dependencies:
-      '@vben-core/shared':
+      '@optiml-core/shared':
         specifier: workspace:*
         version: link:../@core/base/shared
-      '@vben-core/typings':
+      '@optiml-core/typings':
         specifier: workspace:*
         version: link:../@core/base/typings
       vue-router:
@@ -1741,46 +1741,46 @@ importers:
       '@tanstack/vue-query':
         specifier: 'catalog:'
         version: 5.59.13(vue@3.5.12(typescript@5.6.3))
-      '@vben/access':
+      '@optiml/access':
         specifier: workspace:*
         version: link:../packages/effects/access
-      '@vben/common-ui':
+      '@optiml/common-ui':
         specifier: workspace:*
         version: link:../packages/effects/common-ui
-      '@vben/constants':
+      '@optiml/constants':
         specifier: workspace:*
         version: link:../packages/constants
-      '@vben/hooks':
+      '@optiml/hooks':
         specifier: workspace:*
         version: link:../packages/effects/hooks
-      '@vben/icons':
+      '@optiml/icons':
         specifier: workspace:*
         version: link:../packages/icons
-      '@vben/layouts':
+      '@optiml/layouts':
         specifier: workspace:*
         version: link:../packages/effects/layouts
-      '@vben/locales':
+      '@optiml/locales':
         specifier: workspace:*
         version: link:../packages/locales
-      '@vben/plugins':
+      '@optiml/plugins':
         specifier: workspace:*
         version: link:../packages/effects/plugins
-      '@vben/preferences':
+      '@optiml/preferences':
         specifier: workspace:*
         version: link:../packages/preferences
-      '@vben/request':
+      '@optiml/request':
         specifier: workspace:*
         version: link:../packages/effects/request
-      '@vben/stores':
+      '@optiml/stores':
         specifier: workspace:*
         version: link:../packages/stores
-      '@vben/styles':
+      '@optiml/styles':
         specifier: workspace:*
         version: link:../packages/styles
-      '@vben/types':
+      '@optiml/types':
         specifier: workspace:*
         version: link:../packages/types
-      '@vben/utils':
+      '@optiml/utils':
         specifier: workspace:*
         version: link:../packages/utils
       '@vueuse/core':
@@ -1807,7 +1807,7 @@ importers:
       '@clack/prompts':
         specifier: 'catalog:'
         version: 0.7.0
-      '@vben/node-utils':
+      '@optiml/node-utils':
         specifier: workspace:*
         version: link:../../internal/node-utils
       cac:
@@ -1816,7 +1816,7 @@ importers:
 
   scripts/vsh:
     dependencies:
-      '@vben/node-utils':
+      '@optiml/node-utils':
         specifier: workspace:*
         version: link:../../internal/node-utils
       cac:

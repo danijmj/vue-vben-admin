@@ -1,19 +1,19 @@
 <script lang="ts" setup>
-import type { MenuRecordRaw } from '@vben/types';
+import type { MenuRecordRaw } from '@optiml/types';
 
 import { computed, useSlots, watch } from 'vue';
 
-import { useRefresh } from '@vben/hooks';
-import { $t } from '@vben/locales';
+import { useRefresh } from '@optiml/hooks';
+import { $t } from '@optiml/locales';
 import {
   preferences,
   updatePreferences,
   usePreferences,
-} from '@vben/preferences';
-import { useLockStore } from '@vben/stores';
-import { cloneDeep, mapTree } from '@vben/utils';
-import { VbenAdminLayout } from '@vben-core/layout-ui';
-import { VbenBackTop, VbenLogo } from '@vben-core/shadcn-ui';
+} from '@optiml/preferences';
+import { useLockStore } from '@optiml/stores';
+import { cloneDeep, mapTree } from '@optiml/utils';
+import { VbenAdminLayout } from '@optiml-core/layout-ui';
+import { VbenBackTop, VbenLogo } from '@optiml-core/shadcn-ui';
 
 import { Breadcrumb, CheckUpdates, Preferences } from '../widgets';
 import { LayoutContent, LayoutContentSpinner } from './content';

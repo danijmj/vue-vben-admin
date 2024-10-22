@@ -32,7 +32,7 @@ git -v
 
 ```sh [GitHub]
 # clone 代码
-git clone https://github.com/vbenjs/vue-vben-admin.git
+git clone https://github.com/danijmj/vue-vben-admin.git
 ```
 
 ```sh [Gitee]
@@ -86,11 +86,11 @@ pnpm dev
 ```bash
 │
 ◆  Select the app you need to run [dev]:
-│  ○ @vben/web-antd
-│  ○ @vben/web-ele
-│  ○ @vben/web-naive
-│  ○ @vben/docs
-│  ● @vben/playground
+│  ○ @optiml/web-antd
+│  ○ @optiml/web-ele
+│  ○ @optiml/web-naive
+│  ○ @optiml/docs
+│  ● @optiml/playground
 └
 ```
 

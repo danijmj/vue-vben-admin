@@ -2,8 +2,8 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
-import { Page } from '@vben/common-ui';
-import { useTabs } from '@vben/hooks';
+import { Page } from '@optiml/common-ui';
+import { useTabs } from '@optiml/hooks';
 
 import { Button, Card, Input } from 'ant-design-vue';
 

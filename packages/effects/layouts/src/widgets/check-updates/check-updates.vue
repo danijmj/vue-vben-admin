@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
 
-import { $t } from '@vben/locales';
-import { useVbenModal } from '@vben-core/popup-ui';
+import { $t } from '@optiml/locales';
+import { useVbenModal } from '@optiml-core/popup-ui';
 
 interface Props {
   // 轮训时间，分钟

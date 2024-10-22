@@ -1,11 +1,11 @@
 {
-  "name": "@vben/stores",
+  "name": "@optiml/stores",
   "version": "5.4.2",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/danijmj/vue-vben-admin",
+  "bugs": "https://github.com/danijmj/vue-vben-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/danijmj/vue-vben-admin.git",
     "directory": "packages/stores"
   },
   "license": "MIT",
@@ -20,8 +20,8 @@
     }
   },
   "dependencies": {
-    "@vben-core/shared": "workspace:*",
-    "@vben-core/typings": "workspace:*",
+    "@optiml-core/shared": "workspace:*",
+    "@optiml-core/typings": "workspace:*",
     "pinia": "catalog:",
     "pinia-plugin-persistedstate": "catalog:",
     "vue": "catalog:",
