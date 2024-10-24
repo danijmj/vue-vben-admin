@@ -6,7 +6,7 @@
 
 ### 添加作者，并注明来意
 
-- 通过邮箱联系作者： [ann.vben@gmail.com](mailto:ann.vben@gmail.com)
+- 通过邮箱联系作者： [danijmj@gmail.com](mailto:danijmj@gmail.com)
 - 通过微信联系作者：
 
  <img src="https://unpkg.com/@optimljs/static-source@0.1.7/source/wechat.jpg" style="width: 300px;"/>
@@ -20,7 +20,7 @@
 - 在您的网站上添加我们的友情链接，链接如下：
 
   - 名称：Vben Admin
-  - 链接：https://www.vben.pro
+  - 链接：https://www.optiml-solutions.com/
   - 描述：Vben Admin 企业级开箱即用的中后台前端解决方案
   - Logo：https://unpkg.com/@optimljs/static-source@0.1.7/source/logo-v1.webp
 

@@ -16,7 +16,7 @@ hero:
       link: /en/guide/introduction/vben
     - theme: alt
       text: Live Preview
-      link: https://www.vben.pro
+      link: https://www.optiml-solutions.com/
     - theme: alt
       text: View on GitHub
       link: https://github.com/danijmj/vue-vben-admin

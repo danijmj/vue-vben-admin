@@ -30,7 +30,7 @@ const MOCK_USER_OPTIONS: BasicOption[] = [
 
 const formSchema = computed((): VbenFormSchema[] => {
   return [
-    {
+    /* {
       component: 'VbenSelect',
       componentProps: {
         options: MOCK_USER_OPTIONS,
@@ -43,7 +43,7 @@ const formSchema = computed((): VbenFormSchema[] => {
         .min(1, { message: $t('authentication.selectAccount') })
         .optional()
         .default('vben'),
-    },
+    }, */
     {
       component: 'VbenInput',
       componentProps: {

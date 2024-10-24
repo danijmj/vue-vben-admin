@@ -31,7 +31,7 @@ The rules are consistent with [Vite Env Variables and Modes](https://vitejs.dev/
 
 ```bash [.env]
 # Application title
-VITE_APP_TITLE=Vben Admin
+VITE_APP_TITLE=OptiML Admin
 
 # Application namespace, used as a prefix for caching, store, etc., to ensure isolation
 VITE_APP_NAMESPACE=vben-web-antd
@@ -184,8 +184,8 @@ const defaultPreferences: Preferences = {
     styleType: 'normal',
   },
   copyright: {
-    companyName: 'Vben',
-    companySiteLink: 'https://www.vben.pro',
+    companyName: 'OptiML',
+    companySiteLink: 'https://www.optiml-solutions.com/',
     date: '2024',
     enable: true,
     icp: '',

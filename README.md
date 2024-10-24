@@ -27,7 +27,7 @@ This is the latest version, 5.0, and it is not compatible with previous versions
 
 ## Preview
 
-- [Vben Admin](https://vben.pro/) - Full version Chinese site
+- [Vben Admin](https://www.optiml-solutions.com//) - Full version Chinese site
 
 Test Account: vben/123456
 

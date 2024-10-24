@@ -207,7 +207,7 @@ const defaultPreferences: Preferences = {
   },
   copyright: {
     companyName: 'Vben',
-    companySiteLink: 'https://www.vben.pro',
+    companySiteLink: 'https://www.optiml-solutions.com/',
     date: '2024',
     enable: true,
     icp: '',

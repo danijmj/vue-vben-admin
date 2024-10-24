@@ -14,17 +14,15 @@ import { useAuthStore } from '#/store';
 import { generateAccess } from './access';
 
 /**
- * 通用守卫配置
+ * Common Guard Configuration
  * @param router
  */
 function setupCommonGuard(router: Router) {
-  // 记录已经加载的页面
+  // Record already loaded pages
   const loadedPaths = new Set<string>();
-
   router.beforeEach(async (to) => {
     to.meta.loaded = loadedPaths.has(to.path);
-
-    // 页面加载进度条
+    // Page loading progress bar
     if (!to.meta.loaded && preferences.transition.progress) {
       startProgress();
     }
@@ -32,26 +30,23 @@ function setupCommonGuard(router: Router) {
   });
 
   router.afterEach((to) => {
-    // 记录页面是否加载,如果已经加载，后续的页面切换动画等效果不在重复执行
-
+    // Record whether the page has been loaded; if it has, subsequent page transition animations and effects will not be executed again
     loadedPaths.add(to.path);
-
-    // 关闭页面加载进度条
+    // Turn off page loading progress bar
     if (preferences.transition.progress) {
       stopProgress();
     }
 
-    // 动态修改标题
+    // Dynamically modify title
     if (preferences.app.dynamicTitle) {
       const { title } = to.meta;
-      // useTitle(`${$t(title)} - ${preferences.app.name}`);
       useTitle(`${$t(title)} - ${preferences.app.name}`);
     }
   });
 }
 
 /**
- * 权限访问守卫配置
+ * Access Guard Configuration
  * @param router
  */
 function setupAccessGuard(router: Router) {
@@ -60,7 +55,7 @@ function setupAccessGuard(router: Router) {
     const userStore = useUserStore();
     const authStore = useAuthStore();
 
-    // 基本路由，这些路由不需要进入权限拦截
+    // Basic routes that do not require access interception
     if (coreRouteNames.includes(to.name as string)) {
       if (to.path === LOGIN_PATH && accessStore.accessToken) {
         return decodeURIComponent(
@@ -70,44 +65,43 @@ function setupAccessGuard(router: Router) {
       return true;
     }
 
-    // accessToken 检查
+    // accessToken check
     if (!accessStore.accessToken) {
-      // 明确声明忽略权限访问权限，则可以访问
+      // If explicitly declared to ignore access, can access
       if (to.meta.ignoreAccess) {
         return true;
       }
-
-      // 没有访问权限，跳转登录页面
+      // No access rights, redirect to login page
       if (to.fullPath !== LOGIN_PATH) {
         return {
           path: LOGIN_PATH,
-          // 如不需要，直接删除 query
+          // If unnecessary, delete query directly
           query: { redirect: encodeURIComponent(to.fullPath) },
-          // 携带当前跳转的页面，登录后重新跳转该页面
+          // Carry the current redirect page, and redirect to this page after login
           replace: true,
         };
       }
       return to;
     }
 
-    // 是否已经生成过动态路由
+    // Check if dynamic routes have been generated
     if (accessStore.isAccessChecked) {
       return true;
     }
-    // 生成路由表
-    // 当前登录用户拥有的角色标识列表
+
+    // Generate route table
+    // List of role identifiers for the currently logged-in user
     const userInfo = userStore.userInfo || (await authStore.fetchUserInfo());
     const userRoles = userInfo.roles ?? [];
-
-    // 生成菜单和路由
+    // Generate menus and routes
     const { accessibleMenus, accessibleRoutes } = await generateAccess({
       roles: userRoles,
       router,
-      // 则会在菜单中显示，但是访问会被重定向到403
+      // Will be displayed in the menu but access will be redirected to 403
       routes: dynamicRoutes,
     });
 
-    // 保存菜单信息和路由信息
+    // Save menu information and route information
     accessStore.setAccessMenus(accessibleMenus);
     accessStore.setAccessRoutes(accessibleRoutes);
     accessStore.setIsAccessChecked(true);
@@ -121,13 +115,13 @@ function setupAccessGuard(router: Router) {
 }
 
 /**
- * 项目守卫配置
+ * Project Guard Configuration
  * @param router
  */
 function createRouterGuard(router: Router) {
-  /** 通用 */
+  /** Common */
   setupCommonGuard(router);
-  /** 权限访问 */
+  /** Access Guard */
   setupAccessGuard(router);
 }
 

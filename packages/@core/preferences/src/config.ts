@@ -19,7 +19,7 @@ const defaultPreferences: Preferences = {
     layout: 'sidebar-nav',
     locale: 'en-US',
     loginExpiredMode: 'page',
-    name: 'Vben Admin',
+    name: 'OptiML Admin',
     preferencesButtonPosition: 'auto',
     watermark: false,
   },

@@ -6,6 +6,13 @@ import { defineOverridesPreferences } from '@optiml/preferences';
  */
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
+  logo: {
+    enable: true,
+    source: '/noBgColor_sm.png',
+  },
+  widget: {
+    languageToggle: false,
+  },
   app: {
     name: import.meta.env.VITE_APP_TITLE,
   },

@@ -1,7 +1,7 @@
 {
   "name": "@optiml/web-naive",
   "version": "5.4.2",
-  "homepage": "https://vben.pro",
+  "homepage": "https://www.optiml-solutions.com/",
   "bugs": "https://github.com/danijmj/vue-vben-admin/issues",
   "repository": {
     "type": "git",
@@ -10,8 +10,8 @@
   },
   "license": "MIT",
   "author": {
-    "name": "vben",
-    "email": "ann.vben@gmail.com",
+    "name": "optiml",
+    "email": "danijmj@gmail.com",
     "url": "https://github.com/anncwb"
   },
   "type": "module",
