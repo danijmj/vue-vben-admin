@@ -10,9 +10,9 @@ export const MOCK_USERS: UserInfo[] = [
   {
     id: 0,
     password: '123456',
-    realName: 'Vben',
+    realName: 'OptiML',
     roles: ['super'],
-    username: 'vben',
+    username: 'optiml',
   },
   {
     id: 1,
@@ -34,7 +34,7 @@ export const MOCK_CODES = [
   // super
   {
     codes: ['AC_100100', 'AC_100110', 'AC_100120', 'AC_100010'],
-    username: 'vben',
+    username: 'optiml',
   },
   {
     // admin
@@ -173,7 +173,7 @@ const createDemosMenus = (role: 'admin' | 'super' | 'user') => {
 export const MOCK_MENUS = [
   {
     menus: [...dashboardMenus, ...createDemosMenus('super')],
-    username: 'vben',
+    username: 'optiml',
   },
   {
     menus: [...dashboardMenus, ...createDemosMenus('admin')],
@@ -181,6 +181,59 @@ export const MOCK_MENUS = [
   },
   {
     menus: [...dashboardMenus, ...createDemosMenus('user')],
+    username: 'jack',
+  },
+];
+
+export const MOCK_ANALYTICS = [
+  {
+    data: {
+      top5: {
+        source: [
+          ['score', 'amount', 'hotel'],
+          [89.3, 58_212, 'Hotel 1'],
+          [57.1, 78_254, 'Hotel 2'],
+          [74.4, 41_032, 'Hotel 3'],
+          [50.1, 12_755, 'Hotel 4'],
+          [89.7, 20_145, 'Hotel 5'],
+        ],
+      },
+      top20: [
+        { name: 'Hotel 1', value: 1048 },
+        { name: 'Parador', value: 735 },
+        { name: 'Hotel 3', value: 580 },
+        { name: 'Hotel 4', value: 484 },
+        { name: 'Hotel 5', value: 325 },
+        { name: 'Hotel 6', value: 256 },
+        { name: 'Hotel 7', value: 211 },
+        { name: 'Hotel 8', value: 685 },
+        { name: 'Hotel 9', value: 617 },
+        { name: 'Hotel 10', value: 446 },
+        { name: 'Hotel 11', value: 772 },
+        { name: 'Hotel 12', value: 724 },
+        { name: 'Hotel 13', value: 1203 },
+        { name: 'Hotel 14', value: 446 },
+        { name: 'Hotel 15', value: 722 },
+        { name: 'Hotel 16', value: 829 },
+        { name: 'Hotel 17', value: 671 },
+        { name: 'Hotel 18', value: 723 },
+        { name: 'Hotel 19', value: 288 },
+        { name: 'Hotel 20', value: 663 },
+      ],
+      prices: [
+        { name: 'Price AI Calculator', value: 1048 },
+        { name: 'Your price', value: 735 },
+        { name: 'Competency price queroge', value: 580 },
+      ],
+    },
+    username: 'optiml',
+  },
+  {
+    data: [...dashboardMenus, ...createDemosMenus('admin')],
+    username: 'admin',
+  },
+  {
+    data: [...dashboardMenus, ...createDemosMenus('user')],
     username: 'jack',
   },
 ];
